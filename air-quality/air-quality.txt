@@ -1,0 +1,21 @@
+Source: https://archive.ics.uci.edu/ml/datasets/Air+Quality#
+
+Features in the CSV (in order from left to right): 
+* True hourly averaged concentration CO in mg/m^3 (reference analyzer)
+* True hourly averaged overall Non Metanic HydroCarbons concentration in microg/m^3 (reference analyzer)
+* True hourly averaged Benzene concentration in microg/m^3 (reference analyzer) 
+* PT08.S2 (titania) hourly averaged sensor response (nominally NMHC targeted)
+* True hourly averaged NOx concentration in ppb (reference analyzer)
+* PT08.S3 (tungsten oxide) hourly averaged sensor response (nominally NOx targeted) 
+* True hourly averaged NO2 concentration in microg/m^3 (reference analyzer) 
+* PT08.S4 (tungsten oxide) hourly averaged sensor response (nominally NO2 targeted)
+* PT08.S5 (indium oxide) hourly averaged sensor response (nominally O3 targeted) 
+* Temperature in C
+* Relative Humidity (%) 
+* Absolute Humidity
+* PT08.S1 (tin oxide) hourly averaged sensor response (nominally CO targeted) 
+
+Notes: 
+* PT08.S1 (tin oxide) is the feature to predict
+* Dataframe total shape is (9357, 13)
+* The local intrinsic estimation value is 5.8476  
