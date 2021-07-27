@@ -3,11 +3,13 @@
 * [Introduction](#introduction)
 * [Air Quality Dataset](#air-quality-dataset)
 * [Energy Applicances Weather Dataset](#energy-applicances-weather-dataset)
+* [Google Stock Dataset](#google-stock-dataset)
 * [Optical Interconnection Dataset](#optical-interconnection-dataset)
+* [Ozone Level Dataset](#ozone-level-dataset)
 * [Parkinsons Telemonitoring Dataset](#parkinsons-telemonitoring-dataset)
 
 # Introduction
-Located in this repository is four pre-cleaned multivariate time series datasets that have been formatted for usage with the jespipe application. Each directory in this repository is dedicated to a specific dataset, but you can read through this README file to gather info about the mentioned datasets or you can go to each datasets' respective directory and read through the .txt file.
+Located in this repository is six pre-cleaned multivariate time series datasets that have been formatted for usage with the jespipe application. Each directory in this repository is dedicated to a specific dataset, but you can read through this README file to gather info about the mentioned datasets or you can go to each datasets' respective directory and read through the .txt file.
 
 # Air Quality Dataset
 ### Source: 
@@ -73,6 +75,21 @@ Located in this repository is four pre-cleaned multivariate time series datasets
 * Dataframe total shape is (19735, 28)
 * The local intrinsic estimation value is 9.35095
 
+# Google Stock Dataset
+### Source:
+* [Kaggle Creative Commons](https://www.kaggle.com/datasets?license=cc)
+
+### Features in the CSV (in order from left to right):
+* High - Highest stock price of the day
+* Low - Lowest stock price of the day
+* Close - Closing stock price
+* Adj Close - Adjusted closing stock price
+* Open - Opening stock price
+
+### Notes:
+* Open is the feature to predict
+* Dataframe total shape is (2335, 5)
+
 # Optical Interconnection Dataset
 ### Source: 
 * https://archive.ics.uci.edu/ml/datasets/Optical+Interconnection+Network+
@@ -93,6 +110,88 @@ Located in this repository is four pre-cleaned multivariate time series datasets
 * Network response time is the feature to predict
 * Dataframe total shape is (640, 10)
 * The local intrinsic estimation value is 2.7109 
+
+# Ozone Level Dataset
+### Source:
+* https://archive.ics.uci.edu/ml/datasets/Ozone+Level+Detection
+
+### Features:
+* WSR0 - continuous.
+* WSR1 - continuous.
+* WSR2 - continuous.
+* WSR3 - continuous.
+* WSR4 - continuous.
+* WSR5 - continuous.
+* WSR6 - continuous.
+* WSR7 - continuous.
+* WSR8 - continuous.
+* WSR9 - continuous.
+* WSR10 - continuous.
+* WSR11 - continuous.
+* WSR12 - continuous.
+* WSR13 - continuous.
+* WSR14 - continuous.
+* WSR15 - continuous.
+* WSR16 - continuous.
+* WSR17 - continuous.
+* WSR18 - continuous.
+* WSR19 - continuous.
+* WSR20 - continuous.
+* WSR21 - continuous.
+* WSR22 - continuous.
+* WSR23 - continuous.
+* WSR_PK - continuous.
+* T0 - continuous.
+* T1 - continuous.
+* T2 - continuous.
+* T3 - continuous.
+* T4 - continuous.
+* T5 - continuous.
+* T6 - continuous.
+* T7 - continuous.
+* T8 - continuous.
+* T9 - continuous.
+* T10 - continuous.
+* T11 - continuous.
+* T12 - continuous.
+* T13 - continuous.
+* T14 - continuous.
+* T15 - continuous.
+* T16 - continuous.
+* T17 - continuous.
+* T18 - continuous.
+* T19 - continuous.
+* T20 - continuous.
+* T21 - continuous.
+* T22 - continuous.
+* T23 - continuous.
+* T_PK - continuous.
+* T_AV - continuous.
+* T85 - continuous.
+* RH85 - continuous.
+* U85 - continuous.
+* V85 - continuous.
+* HT85 - continuous.
+* T70 - continuous.
+* RH70 - continuous.
+* U70 - continuous.
+* V70 - continuous.
+* HT70 - continuous.
+* T50 - continuous.
+* RH50 - continuous.
+* U50 - continuous.
+* V50 - continuous.
+* HT50 - continuous.
+* KI - continuous.
+* TT - continuous.
+* SLP - continuous.
+* SLP_ - continuous.
+* Precp - continuous.
+* WSR_AV - continuous.
+
+### Notes:
+* Average wind speed is the feature to predict
+* Dataframe total shape is (2536, 73)
 
 # Parkinsons Telemonitoring Dataset
 ### Source: 

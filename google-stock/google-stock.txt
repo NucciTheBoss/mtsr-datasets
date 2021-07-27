@@ -1,0 +1,27 @@
+1. Title: Google Stock Data Set
+
+2. Source:
+
+Kaggle Creative Commons
+
+3. Relevant Information:
+
+-- Date - Date the instance was recorded
+-- Open - Opening stock price
+-- High - Highest stock price of the day
+-- Low - Lowest stock price of the day
+-- Close - Closing stock price
+-- Adj Close - Adjusted closing stock price
+
+4. Number of Instances: 2335
+
+5. Number of Attributes: 6
+
+6. Attribute Information:
+
+Date:       ignore. <- Dropped in cleaned dataset
+High:       continuous. <- Feature
+Low:        continuous. <- Feature
+Close:      continuous. <- Feature
+Adj Close:  continuous. <- Feature
+Open:       continuous. <- Label

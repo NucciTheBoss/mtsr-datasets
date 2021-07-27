@@ -1,0 +1,128 @@
+1. Title: Ozone Level Detection
+
+
+2. Source:
+
+Kun Zhang
+zhang.kun05 '@' gmail.com
+Department of Computer Science, 
+Xavier University of Lousiana
+
+Wei Fan
+wei.fan '@' gmail.com
+IBM T.J.Watson Research
+
+XiaoJing Yuan
+xyuan '@' uh.edu
+Engineering Technology Department, 
+College of Technology, University of Houston 
+
+
+3. Past Usage:
+
+Forecasting skewed biased stochastic ozone days: analyses, solutions and beyond, Knowledge and Information Systems, Vol. 14, No. 3, 2008.
+Discusses details about the dataset, its use as well as various experiments (both cross-validation and streaming) using many state-of-the-art methods.
+
+A shorter version of the paper (does not contain some detailed experiments as the journal paper above) is in:
+Forecasting Skewed Biased Stochastic Ozone Days: Analyses and Solutions. ICDM 2006: 753-764 
+
+
+4. Relevant Information:
+
+The following are specifications for several most important attributes 
+that are highly valued by Texas Commission on Environmental Quality (TCEQ). 
+More details can be found in the two relevant papers.
+ 
+-- O 3 - Local ozone peak prediction
+-- Upwind - Upwind ozone background level
+-- EmFactor - Precursor emissions related factor
+-- Tmax - Maximum temperature in degrees F
+-- Tb - Base temperature where net ozone production begins (50 F)
+-- SRd - Solar radiation total for the day
+-- WSa - Wind speed near sunrise (using 09-12 UTC forecast mode)
+-- WSp - Wind speed mid-day (using 15-21 UTC forecast mode) 
+
+
+5. Number of Instances: 2536
+
+
+6. Number of Attributes: 73
+
+
+7. Attribute Information:
+
+1,0 | two classes 1: ozone day, 0: normal day
+
+Date:     ignore. <- Dropped in cleaned data set
+WSR0:     continuous. <- Feature
+WSR1:     continuous. <- Feature
+WSR2:     continuous. <- Feature
+WSR3:     continuous. <- Feature
+WSR4:     continuous. <- Feature
+WSR5:     continuous. <- Feature
+WSR6:     continuous. <- Feature
+WSR7:     continuous. <- Feature
+WSR8:     continuous. <- Feature
+WSR9:     continuous. <- Feature
+WSR10:     continuous. <- Feature
+WSR11:     continuous. <- Feature
+WSR12:     continuous. <- Feature
+WSR13:     continuous. <- Feature
+WSR14:     continuous. <- Feature
+WSR15:     continuous. <- Feature
+WSR16:     continuous. <- Feature
+WSR17:     continuous. <- Feature
+WSR18:     continuous. <- Feature
+WSR19:     continuous. <- Feature
+WSR20:     continuous. <- Feature
+WSR21:     continuous. <- Feature
+WSR22:     continuous. <- Feature
+WSR23:     continuous. <- Feature
+WSR_PK:     continuous. <- Feature
+T0:     continuous. <- Feature
+T1:     continuous. <- Feature
+T2:     continuous. <- Feature
+T3:     continuous. <- Feature
+T4:     continuous. <- Feature
+T5:     continuous. <- Feature
+T6:     continuous. <- Feature
+T7:     continuous. <- Feature
+T8:     continuous. <- Feature
+T9:     continuous. <- Feature
+T10:     continuous. <- Feature
+T11:     continuous. <- Feature
+T12:     continuous. <- Feature
+T13:     continuous. <- Feature
+T14:     continuous. <- Feature
+T15:     continuous. <- Feature
+T16:     continuous. <- Feature
+T17:     continuous. <- Feature
+T18:     continuous. <- Feature
+T19:     continuous. <- Feature
+T20:     continuous. <- Feature
+T21:     continuous. <- Feature
+T22:     continuous. <- Feature
+T23:     continuous. <- Feature
+T_PK:     continuous. <- Feature
+T_AV:     continuous. <- Feature
+T85:     continuous. <- Feature
+RH85:     continuous. <- Feature
+U85:     continuous. <- Feature
+V85:     continuous. <- Feature
+HT85:     continuous. <- Feature
+T70:     continuous. <- Feature
+RH70:     continuous. <- Feature
+U70:     continuous. <- Feature
+V70:     continuous. <- Feature
+HT70:     continuous. <- Feature
+T50:     continuous. <- Feature
+RH50:     continuous. <- Feature
+U50:     continuous. <- Feature
+V50:     continuous. <- Feature
+HT50:     continuous. <- Feature
+KI:     continuous. <- Feature
+TT:     continuous. <- Feature
+SLP:     continuous. <- Feature
+SLP_:     continuous. <- Feature
+Precp:    continuous. <- Feature
+WSR_AV:     continuous. <- Label
