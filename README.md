@@ -89,6 +89,7 @@ Located in this repository is six pre-cleaned multivariate time series datasets 
 ### Notes:
 * Open is the feature to predict
 * Dataframe total shape is (2335, 5)
+* The local intrinsic estimation values is 1.7302
 
 # Optical Interconnection Dataset
 ### Source: 
@@ -192,6 +193,7 @@ Located in this repository is six pre-cleaned multivariate time series datasets 
 ### Notes:
 * Average wind speed is the feature to predict
 * Dataframe total shape is (2536, 73)
+* The local intrinsic estimation value is 7.9846
 
 # Parkinsons Telemonitoring Dataset
 ### Source: 
